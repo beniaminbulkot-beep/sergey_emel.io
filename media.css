@@ -1,0 +1,608 @@
+
+@media(max-width: 1730px) {
+    .container {
+        margin-inline: 70px;
+    }
+   
+    .footer-nav {
+        padding-inline: 50px 70px;
+    }
+    .footer-contacts {
+        padding-inline: 50px 140px;
+    }
+    .footer-logo {
+        padding-inline: 90px;
+    }
+}
+
+@media(max-width: 1620px) {
+    .footer-arrow {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+
+@media(max-width: 1440px) {
+    .nav-list {
+        margin-top: 150px;
+        white-space: nowrap;
+    }
+
+
+    .solutions-content {
+        grid-template-columns: 1fr;
+    }
+    .services-content {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .directions-content {
+        grid-template-columns: 1fr;
+    }
+
+    .praxis-btn {
+        position: absolute;
+        top: 800px;
+    }
+    .praxis-content {
+        margin-bottom: 700px;
+    }
+    .praxis-content img {
+        position: absolute;
+        bottom: 0;
+    }
+
+    .advantages-content {
+        grid-template-columns: 1fr;
+    }
+    .advantages-img {
+        position: absolute;
+        bottom: -120px;
+        left: 0;
+    }
+    .advantages-btn {
+        margin-top: 50px;
+    }
+
+    
+    .results-content {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-navbar {
+        position: relative;
+        width: 100%;
+    }
+    .footer-arrow {
+        margin: 0;
+        position: absolute;
+        bottom: -170px;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .target {
+        position: relative;
+        padding-top: 434px;
+    }
+    .target-man {
+        position: absolute;
+        top: 0;
+    }
+    .target-btn-column {
+        border-top: 2px solid #D9D9D9;
+    }
+    .rights {
+        padding-top: 200px;
+    }
+}
+
+
+@media(max-width: 1370px) {
+    .gray-btn {
+        flex-shrink: 0;
+    }
+    .green-btn {
+        flex-shrink: 0;
+    }
+    .nav-list {
+        position: absolute;
+        left: 15%;
+        right: 20%;
+    }
+    .header-nav {
+        padding-bottom: 100px;
+    }
+    .cases-content {
+        grid-template-columns: 1fr;
+    }
+} 
+
+@media(max-width: 1116px) {
+    .praxis-btn {
+        margin-top: 60px;
+    }
+}
+
+@media(max-width: 1040px) {
+    .footer-navbar {
+        padding-top: 450px;
+        position: relative;
+    }
+    .footer-logo {
+        position: absolute;
+        top: 0;
+        left: 33%;
+        border: none;
+    }
+    .footer-contacts {
+        border-top: 2px solid rgba(255,255,255,0.1);
+        max-height: 511px;
+    }
+    .footer-navbar {
+        justify-content: start;
+    }
+    .footer-nav {
+        border-top: 2px solid rgba(255,255,255,0.1);
+        padding-right: 21%;
+    }
+}
+
+@media(max-width: 1024px) {
+    .container {
+        margin-inline: 40px;
+    }
+    .gray-btn, .green-btn {
+        font-size: 90%;
+        height: 48px;
+    }
+    .gray-btn img, .green-btn img {
+        height: 45px;
+    }
+   .header-title {
+        font-size: 250%;
+        max-width: none;
+   }
+    .nav-list {
+        position: fixed;
+        top: 0px;
+        right: -120%;
+        width: 300px;
+        height: 40vh;
+        background-color: hsla(206, 82%, 24%);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        transition: right 0.4s ease;
+    }
+    .nav-item {
+        margin-left: 20px;
+    }
+    .nav-list.active {
+        right: 0;
+    }
+    .burger {
+        display: inline;
+        margin-left: 8px;
+    }
+    .burger img {
+        width: 48px;
+        height: 48px;
+    }
+    .header-nav a {
+        margin-left: auto;
+        max-width: 196px;
+        font-size: 13px;
+    }
+    .header-nav {
+        padding-bottom: 25px;
+    }
+    .logo {
+        margin-right: auto;
+    }
+
+
+   .features-title {
+        font-size: 230%
+   }
+   .features-text {
+        font-size: 100%;
+        max-width: 60%;
+        margin-left: 10%;
+   }
+   .features-numbres{
+        margin-block: auto;
+        font-size: 100%;
+   }
+   .bold {
+        font-size: 400%;
+   }
+
+
+   .roadmap-title {
+        font-size: 200%;
+   }
+   .roadmap-mini-title, .roadmap-text, .roadmap-desc{
+        font-size: 120%;
+   }
+
+
+   .solutions-title {
+        font-size: 200%;
+   }
+    .solution-card h3, .solution-card p {
+        font-size: 120%;
+    }
+
+
+    .services-title {
+        font-size: 230%;
+    }
+    .service-title, .service-desc {
+        font-size: 120%;
+    }
+
+
+    .directions-title {
+        font-size: 200%;
+    }
+    .direction-title, .direction-desc {
+        font-size: 120%;
+    }
+    .directions-content {
+        gap: 0;
+    }
+    .directions {
+        margin-bottom: 20px;
+    }
+
+
+    .praxis-title {
+        font-size: 200%;
+    }
+    .item-title, .item-desc {
+        font-size: 120%;
+    }
+    .praxis-btn {
+       margin-top: 0;
+       padding: 0; 
+    }
+    .praxis-content img {
+       display: none;
+    }
+    .praxis-content {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+    .praxis-btn {
+        position: static;
+        margin-bottom: 30px;
+    }
+
+
+
+    .cases-title {
+        font-size: 200%;
+        font-weight: 500;
+    }
+    .cases-item-title, .cases-desq {
+        font-size: 120%;
+    }
+
+
+    .advantages-title {
+        font-size: 200%;
+    }
+    .advantages-item-title, .advantages-desq {
+        font-size: 120%;
+    }
+    .advantages-img {
+        width: 70%;
+        height: 40%;
+        left: 15%;
+        margin-bottom: 30px;
+    }
+
+
+    .results-title {
+        font-size: 200%;
+        margin-top: 50px;
+    }
+    .results-content {
+        margin-bottom: 50px;
+    }
+    .results-item-title, .results-desq {
+        font-size: 120%;
+    }
+
+
+
+    .footer-target {
+        font-size: 120%;
+        border-top: none;
+    }
+    .target {
+        padding-top: 30px;
+        gap: 0;
+    }
+    .target-man {
+        position: static;
+        max-width: 261px;
+        max-height: 353px;
+    }
+    .target-btn-column {
+        border-top: none;
+    }
+    .footer-logo {
+        display: none;
+    }
+    .footer-navbar {
+        padding-top: 0;
+    }
+
+
+
+    .one-arrow {
+        flex-direction: column;
+        gap: 40px; 
+    }
+   .arrow {
+        height: 100px;
+   }
+    .two-arrow {
+        flex-direction: column;
+        margin-top: 40px;
+        gap: 40px;
+    }
+
+}
+
+
+@media(max-width: 800px) {
+    
+    .target-man {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+   .footer-target {
+    border-top: 2px solid white;
+    padding-top: 10px;
+   }
+    .target {
+        padding-top: 270px;
+        position: relative;
+    }
+    .footer-btns {
+        flex-direction: column;
+    }
+    .footer-navbar {
+        flex-direction: column;
+    }
+    .footer-contacts {
+        padding: 20px 0 20px 0;
+        border: 0;
+    }
+    .footer-nav {
+        width: 100%;
+        text-align: center;
+        padding: 20px 0 20px 0;
+        border-top: 2px solid rgba(255,255,255,0.1);;
+    }
+
+
+
+    .directions-title {
+        margin-top: 40px;
+    }
+    .directions-content {
+        gap: 30px;
+    }
+    .direction img {
+        max-width: 74px;
+        max-height: 74px;
+    }
+
+    .services-btn {
+        margin-top: 45px;
+        padding-bottom: 65px;
+    }
+    .services-title {
+        padding-top: 65px;
+    }
+    .services-content {
+        margin-top: 45px;
+    }
+    .solutions-title {
+        margin-top: 65px;
+    }
+    .solutions-content {
+        margin-top: 45px;
+    }
+    .roadmap-title {
+        padding-top: 45px;
+    }
+    .roadmap-content {
+        margin-top: 45px;
+    }
+    .roadmap-btns {
+        padding-bottom: 45px;
+    }
+    .features-title {
+        margin-top: 45px;
+    }
+    .features-content {
+        margin-bottom: 45px;
+    }
+} 
+
+@media(max-width: 648px) {
+    .logo {
+        display: none;
+    }
+    .logo-short {
+        display: block;
+    }
+    .green-btn {
+        max-width: 255px;
+    }
+    .gray-btn {
+        max-width: 216px;
+    }
+    .header-btns {
+        flex-direction: column;
+    }
+    .roadmap-btns {
+        flex-direction: column;        
+    }
+    .services-btn {
+        flex-direction: column;
+    }
+    .praxis-btn {
+        flex-direction: column;
+    }
+    .advantages-btn {
+        flex-direction: column;
+    }
+}
+
+@media(max-width: 600px) {
+    .container {
+        margin-inline: 24px;
+     }
+    .header-content {
+        margin-left: 0;
+    }
+    .header-title {
+        font-size: 23px;
+    }
+    .header-nav {
+        padding: 0;
+        backdrop-filter: none;
+        margin-right: 20px;
+    }
+    .logo-short {
+        width: 25px;
+        height: 30px;
+    }
+    .header-nav a {
+        width: 150px;
+        height: 40px;
+        font-size: 12px;
+        padding-left: 0;
+        justify-content: center;
+        gap: 8px;
+    }
+    .burger img {
+        width: 35px;
+        height: 35px;
+    }
+    .header-nav a img{
+     padding: 0;
+     width: 30px;
+     height: 30px;
+    }
+    .features-title {
+        font-size: 30px;
+   }
+   .features-content {
+    flex-direction: column;
+    gap: 32px;
+   }
+   .features-text {
+        max-width: 100%;
+        margin-left: 0;
+   }
+   .roadmap-title {
+    font-size: 20px;
+   }
+   .solutions-title {
+    font-size: 20px;
+   }
+   .services-title {
+    font-size: 20px;
+   }
+   .directions-title {
+    font-size: 25px;
+   }
+   .direction img {
+    width: 30px;
+    height: 30px;
+   }
+   .direction-title {
+    font-size: 16px;
+   }
+   .direction-desc {
+    font-size: 14px;
+   }
+   .praxis-title {
+    font-size: 20px;
+    padding-block: 30px;
+   }
+   .item-title {
+    font-size: 16px;
+   }
+   .item-desc {
+    font-size: 14px;
+   }
+   .cases-title {
+    font-size: 20px;
+   }
+   .cases-desq {
+    font-size: 14px;
+   }
+   .advantages-title {
+    font-size: 20px;
+   }
+   .advantages-desq {
+    font-size: 16px;
+   }
+   .results-title {
+    font-size: 20px;
+   }
+   .results-desq {
+    font-size: 16px;
+   }
+   .results-icon {
+    width: 30px;
+    height: 30px;
+   }
+   .footer-target {
+    font-size: 18px;
+   }
+   .coop-title {
+    font-size: 16px;
+    margin-inline: 20px;
+    text-align: center;
+   }
+   .coop-contacts {
+    font-size: 14px;
+    margin-left: 10px;
+   }
+   .join-us-title {
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
+   }
+   .join-us img {
+    width: 150px;
+    margin-left: 10px;
+   }
+   .footer-nav-title {
+    font-size: 20px;
+   }
+   .nav-item {
+    font-size: 14px;
+   }
+   .rights {
+    font-size: 10px;
+    margin-inline: 10px;
+   }
+   .footer-arrow {
+    width: 70px;
+    height: 70px;
+    margin: 0;
+   }
+}

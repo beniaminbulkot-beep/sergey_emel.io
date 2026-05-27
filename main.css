@@ -1,0 +1,664 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.gray-btn, .green-btn {
+    transition: 0.2s;
+}
+.gray-btn:hover, .green-btn:hover {
+    transform: scale(1.03);
+    transition: 0.2s;
+    opacity: 80%;
+    cursor: pointer;
+}
+
+
+.header {
+    background: url(images/img1.akspic.ru-sinij-nebo-kondensaciya-padenie-steklo-8192x3965.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 1px;
+    padding-bottom: 200px;
+    box-sizing: content-box;
+}
+.container {
+    max-width: 1700px;
+    margin-inline: auto;
+}
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(30px) brightness(1.1);
+    padding: 22px 26px;
+    border-radius: 54px;
+    margin-top: 33px;
+}
+.logo-short {
+    display: none;
+}
+.burger {
+    display: none;
+}
+.nav-list {
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+    margin-right: 32px;
+}
+.nav-item {
+    font-size: 18px;
+    color: white;
+    font-weight: 300;
+    line-height: auto;
+    letter-spacing: 0%;
+    transform: scaleY(1.09);
+    transition: 0.3s;
+}
+.nav-item.active {
+    font-weight: 700;
+    padding: 0 5px 3px 5px;
+    border-bottom: 1px solid;
+}
+.gray-btn {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 100px;
+    padding-left: 28px;
+    color: rgb(105, 105, 105);
+    font-weight: 700;
+    font-size: 18px;
+}
+.gray-btn img {
+    padding: 8px 8px 8px 12px;
+}
+
+
+.header-content {
+    margin-top: 100px;
+    margin-left: 40px;
+}
+.header-title {
+    margin-top: 32px;
+    font-size: 70px;
+    color: white;
+    max-width: 1220px;
+}
+.header-btns {
+    display: flex;
+    gap: 16px;
+    margin-top: 32px;
+}
+.green-btn {
+    display: flex;
+    align-items: center;
+    background-color: #25A587;
+    border-radius: 100px;
+    font-weight: 700;
+    font-size: 18px;
+    padding-right: 28px;
+    color: white;
+}
+.green-btn img {
+    padding: 13px 12px 13px 20px;
+}
+
+
+
+.features-title {
+    font-family: "Unbounded", sans-serif;
+    color: #323F6F;
+    font-size: 60px;
+    margin-top: 110px;
+    font-weight: 500;
+}
+.features-content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 72px;
+    margin-bottom: 130px;
+
+}
+.features-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    max-width: 1000px;
+    margin-block: auto;
+}
+.features-text {
+    color: #323F6F;
+    font-size: 22px;
+}
+.blue-style {
+    font-weight: 700;
+}
+.green-style {
+    font-weight: 700;
+    color: #25A587;    
+}
+.features-numbres {
+    color: #323F6F;
+    font-size: 32px;
+    font-weight: 700;
+    margin-inline: auto;
+    line-height: 150%;
+    text-align: center;
+
+}
+.bold {
+    font-size: 70px;
+    font-weight: 700;
+}
+
+
+
+.roadmap {
+    background-color: black;
+    position: relative;
+    overflow: hidden;
+}
+.first-sircle {
+    width: 769px;
+    height: 769px;
+    background: radial-gradient(#008852 0%, #164125 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: -385px;
+    left: -385px;
+    filter: blur(400px);
+    opacity: 60%;
+}
+.second-sircle {
+    width: 769px;
+    height: 769px;
+    background: radial-gradient(#008852 0%, #164125 100%);
+    border-radius: 50%;
+    position: absolute;
+    bottom: -385px;
+    right: -385px;
+    filter: blur(400px);
+    opacity: 60%;
+}
+.roadmap-title {
+    padding-top: 110px;
+    font-family: 'Unbounded', sans-serif;
+    color: white;
+    font-size: 60px;
+    text-align: center;
+}
+.roadmap-content {
+    margin-block: 72px; 
+}
+.one-arrow {
+    display: flex;
+}
+.two-arrow {
+    display: flex;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.roadmap-element {
+    width: 100%;
+    
+}
+.arrow {
+    height: 55%;
+    background: linear-gradient(
+      90deg, #00885255 0%, #051009 50%, #00885253 100%
+    );
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    clip-path: polygon(
+        0% 0%, 95% 0%, 100% 50%, 95% 100%, 0% 100%, 5% 50%
+    );
+}
+.roadmap-mini-title {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 32px;
+    color: white;
+    margin-left: 16px;
+    margin-top: 24px;
+}
+.roadmap-text {
+    margin-top: 8px;
+    margin-left: 16px;
+    font-size: 26px;
+    color: white;
+}
+.roadmap-desc {
+    color: white;
+    font-size: 22px;
+}
+.roadmap-btns {
+    display: flex;
+    gap: 16px;
+    margin-top: 72px;
+    padding-bottom: 130px;
+}
+
+
+
+.solutions-title {
+    font-family: 'Unbounded';
+    font-weight: 600;
+    font-size: 60px;
+    color: #323F6F;
+    text-align: left;
+    margin-top: 110px;
+}
+.solutions-content {
+    margin-top: 72px;
+    margin-bottom: 130px;
+    display: grid;
+    gap: 32px;
+    grid-template-columns: 1fr 1fr;
+}
+.solution-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #E9FEF9;
+    border: 2px solid rgb(184, 216, 216);
+    border-radius: 12px;
+    color: #323F6F;
+}
+.solution-card img {
+    margin-left: 42px;
+    margin-top: 38px;
+}
+.solution-card h3 {
+    font-family: 'Unbounded';
+    font-size: 32px;
+    margin-left: 42px;
+    margin-top: 32px;
+}
+.solution-card p {
+    font-size: 24px;
+    margin-left: 42px;
+    margin-top: 16px;
+    margin-bottom: 44px;
+}
+
+
+
+.services {
+    background: black;
+    position: relative;
+    overflow: hidden;
+}
+.third-sircle {
+    width: 769px;
+    height: 769px;
+    background: radial-gradient(#008852 0%, #164125 100%);
+    border-radius: 50%;
+    position: absolute;
+    left: -585px;
+    filter: blur(400px);
+    opacity: 60%;
+}
+.four-sircle {
+    width: 769px;
+    height: 769px;
+    background: radial-gradient(#008852 0%, #164125 100%);
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    right: -585px;
+    filter: blur(400px);
+    opacity: 60%;
+}
+.services-title {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 60px;
+    color: white;
+    padding-top: 110px;
+}
+.services-content {
+    color: white;
+    margin-top: 72px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 32px;
+    column-gap: 64px;
+}
+.service-title {
+    font-size: 32px;
+    font-family: 'Unbounded', sans-serif;
+}
+.service-desc {
+    font-size: 24px;
+    margin-top: 16px;
+}
+.services-btn {
+    display: flex;
+    gap: 16px;
+    margin-top: 100px;
+    padding-bottom: 130px;
+}
+
+
+.directions {
+    margin-bottom: 130px;
+}
+.directions-title {
+    font-family: 'Unbounded';
+    font-size: 60px;
+    color: #323F6F;
+    margin-top: 110px;
+}
+.directions-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    margin-top: 72px;
+}
+.direction {
+    display: flex;
+}
+.direction img {
+    margin-bottom: 62px;
+}
+.cont {
+    display: flex;
+    flex-direction: column;
+    margin-left: 32px;
+}
+.direction-title {
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 500;
+    font-size: 32px;
+    color: #323F6F;  
+}
+.direction-desc {
+    margin-top: 16px;
+    font-size: 22px;
+    color: #323F6F;
+}
+
+
+
+.praxis {
+    background-color: #000000;
+    position: relative;
+    overflow: hidden;
+}
+.praxis-title {
+    padding-top: 110px;
+    font-family: 'Unbounded', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    color: #ffffff;  
+}
+.praxis-content {
+    color: #ffffff;
+    display: flex;
+    margin-top: 72px;
+}
+.praxis-content img {
+    max-width: 800px;
+    max-height: 691px;
+}
+.praxis-items {
+    max-width: 800px;
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+.item-title {
+    font-size: 32px;
+    font-family: 'Unbounded', sans-serif;
+}
+.item-desc {
+    margin-top: 16px;
+    font-size: 22px;
+}
+.praxis-btn {
+    display: flex;
+    gap: 16px;
+    padding-top: 64px;
+    padding-bottom: 130px;
+}
+.six-sircle {
+    width: 769px;
+    height: 769px;
+    background: radial-gradient(#008852 0%, #164125 100%);
+    border-radius: 50%;
+    position: absolute;
+    right: -585px;
+    filter: blur(400px);
+    opacity: 60%;
+}
+
+
+.cases {
+    padding-top: 110px;
+    margin-bottom: 130px;
+}
+.cases-title {
+    font-size: 60px;
+    font-family: "Unbounded";
+    color: #323F6F;
+}
+.cases-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px 64px;
+    margin-top: 72px;
+}
+.cases-item {
+    border-top: 3px solid #25A587;
+    padding-top: 32px;
+}
+.cases-item-title {
+    font-family: "Unbounded";
+    font-size: 32px;
+    font-weight: 500;
+    color: #323F6F;
+}
+.cases-desq {
+    margin-top: 16px;
+    font-size: 24px;
+    color: #323F6F;
+}
+
+
+.advantages {
+    padding-top: 110px;
+    background-color: #000000;
+    color: white;
+}
+.advantages-title {
+    font-family: "Unbounded";
+    font-size: 60px;
+}
+.advantages-content {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    margin-top: 72px;
+    padding-bottom: 250px;
+}
+.advantages-item-title {
+    font-family: "Unbounded";
+    font-size: 32px;
+    margin-bottom: 16px;
+}
+.advantages-desq {
+    font-size: 24px;
+}
+.advantages-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.advantages-btn {
+    display: flex;
+    gap: 16px;
+    padding-top: 64px;
+    padding-bottom: 130px;
+}
+
+
+
+
+.results-title {
+    margin-top: 110px;
+    font-family: "Unbounded";
+    font-size: 60px;
+    color: #323F6F;
+}
+.results-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 64px;
+    margin-top: 72px;
+    margin-bottom: 130px;
+}
+.results-item {
+    display: flex;
+    gap: 24px;
+}
+.results-icon {
+    width: 70px;
+    height: 70px;
+}
+.results-item-title {
+    font-family: "Unbounded";
+    font-size: 32px;
+    font-weight: 500;
+    color: #323F6F;
+}
+.results-desq {
+    margin-top: 16px;
+    font-size: 24px;
+    color: #323F6F;
+}
+
+
+
+
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+}
+.target {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 2px solid #D9D9D9;
+    padding-top: 64px;
+    gap: 48px;
+}
+.target-btn-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.footer-target {
+    font-family: "Unbounded";
+    font-size: 32px;
+    max-width: 1218px;
+    padding-block: 54px;
+}
+.footer-btns {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 54px;
+}
+.first-words {
+    color: #25A587;
+    font-weight: 700;
+}
+
+
+.footer-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 64px;
+    border-top: 2px solid rgba(255,255,255,0.1);
+    border-bottom: 2px solid rgba(255,255,255,0.1);
+}
+.footer-logo {
+    max-width: 170px;
+    max-height: 290px;
+    padding-inline: 139px;
+    border-right: 2px solid rgba(255,255,255,0.1);
+    box-sizing: content-box;
+    object-fit: none;
+    flex-shrink: 0;
+    padding-block: 110px;
+}
+
+.footer-contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2px solid rgba(255,255,255,0.1);
+    padding-block: 87px;
+    padding-left: 80px;
+    padding-right: 212px;
+}
+
+.coop {
+    max-width: 401px;
+}
+.coop-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+.coop-contacts {
+    font-size: 20px;
+    margin-block: 32px 72px;
+    line-height: 2;
+    opacity: 70%;
+}
+.join-us img{
+    margin-top: 16px;
+}
+.join-us-title {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-right: 2px solid rgba(255,255,255,0.1);
+    padding-block: 85px;
+    padding-left: 80px;
+    padding-right: 107px;
+}
+.footer-nav-title {
+    font-size: 24px;
+    font-weight: 600;    
+}
+
+.footer-nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-top: 32px;
+    line-height: 1.57;
+    opacity: 70%;
+}
+
+.footer-arrow {
+    max-width: 119px;
+    max-height: 119px;
+    margin-inline: 165px;
+}
+
+.rights {
+    padding-block: 72px;
+    text-align: center;
+}
